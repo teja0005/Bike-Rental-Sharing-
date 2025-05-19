@@ -17,7 +17,7 @@ X Education has appointed you to help them select the most promising leads, i.e.
 ## Data
 You have been provided with a leads dataset from the past with around 9000 data points. This dataset consists of various attributes such as Lead Source, Total Time Spent on Website, Total Visits, Last Activity, etc. which may or may not be useful in ultimately deciding whether a lead will be converted or not. The target variable, in this case, is the column ‘Converted’ which tells whether a past lead was converted or not wherein 1 means it was converted and 0 means it wasn’t converted. You can learn more about the dataset from the data dictionary provided in the zip folder at the end of the page. Another thing that you also need to check out are the levels present in the categorical variables. Many of the categorical variables have a level called 'Select' which needs to be handled because it is as good as a null value (think why?).
 
-### Key Steps:
+## Key Steps:
 
 1. **Data Preprocessing**:
    - The dataset contains around 9000 leads with various attributes like Lead Source, Last Activity, and Total Time Spent on the Website.
@@ -45,13 +45,13 @@ You have been provided with a leads dataset from the past with around 9000 data 
        - Sensitivity: 80.27%
        - Specificity: 81.10%
 
-### Goals of the Case Study
+## Goals of the Case Study
 
 - Build a logistic regression model to assign a lead score between 0 and 100 to each of the leads.
 - Identify the most promising leads for the sales team to focus on.
 - Evaluate model performance using metrics like accuracy, sensitivity, and specificity.
 
-### Results
+## Results
 
   - The logistic regression model successfully assigned lead scores to potential customers, with high   conversion probabilities identified.
   - The model’s sensitivity and accuracy were in line with the company’s goal of achieving a lead conversion rate of around 80%.
